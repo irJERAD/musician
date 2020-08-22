@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>A home for my musical challenges</title>
+    <link>https://musician.jerad.xyz/</link>
+    <description>Recent content on A home for my musical challenges</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    
+	<atom:link href="https://musician.jerad.xyz/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+  </channel>
+</rss>

@@ -1,0 +1,86 @@
+baseURL = "https://musician.jerad.xyz"
+languageCode = "en-us"
+title = "A home for my musical challenges"
+theme = "timer-hugo"
+
+# We Used Ionicons Icon font for Icon, for more details check this link - https://ionicons.com/
+
+# Navbar Menus
+[[menu.main]]
+name    = "The Past"
+url     = "thepast"
+weight  = 2
+[[menu.main]]
+name    = "The Present"
+url     = "thepresent"
+weight  = 3
+[[menu.main]]
+name    = "The Post"
+url     = "posts"
+weight  = 4
+
+# Site Params
+[params]
+home = "Home"
+logo = "images/logo.png"
+dateFormat = "6 January 2006"
+# Meta data
+description = "Airspace Hugo theme"
+author = "Themefisher"
+# Google Analitycs
+googleAnalitycsID = "Your ID"
+# contact form action
+contactFormAction = "#" # contact form works with https://formspree.io
+
+# Banner Section
+[params.banner]
+enable  = true
+bgImage = "images/slider.jpg"
+heading = "A catacolm of collected spritely pursuits"
+description = "All the people I've played with. Shows I have been to/in. Gear I have drooled on. Has been time well invested. And now, a little more organized."
+# button
+btn     = true
+btnText = "More Jerad"
+btnURL  = "https://jerad.xyz/"
+
+# flip text
+[[params.banner.flipText]]
+title   = "Guitar Playing"
+[[params.banner.flipText]]
+title   = "Gear Head"
+[[params.banner.flipText]]
+title   = "Music Making"
+
+# Homepage About Section
+[params.about]
+enable  = true
+title   = "Space's Purpose"
+content = "Starting with the kitchen, this place will have the past poured into a repository of banal satisfaction to most and a tireless place of endulgence in past times in my life that could be said to have been <em>the time of my life</em>. <br> In time currated posts on music as a pasttime, idea, ideology, and epilogue to our own unduing, music equipment, and ongoing projects, bands and jam sesh's will be recorded here."
+image   = "images/about/about.jpg"
+
+# Call to Action
+[params.cta]
+enable  = true
+title   = "Want to Jam?"
+content = "or Talk music, creativity, cognition, Yo-Gaba-Gaba? Hit Me Up!"
+btnText = "Call Me: 909-631-1330"
+btnURL  = "/contact"
+
+# Portfolio Section On Homepage
+[params.portfolio]
+enable  = true
+title   = "Coolest Thoughts"
+subtitle= "This is Cool talk with Jerad. You know what would be cool? If we could play music using the threads of neural axions known as ganglion. The symphony of our mind's communication network would reveal itself to us."
+
+# social icon
+[[params.socialIcon]]
+icon = "ion-social-facebook"
+url = "https://facebook.com/jeradacosta"
+
+[[params.socialIcon]]
+icon = "ion-social-instagram"
+url = "#"
+
+[[params.socialIcon]]
+icon = "ion-social-linkedin"
+url = "https://linkedin.com/in/jeradacosta"
